@@ -1,6 +1,8 @@
 require_relative 'spec_helper'
 require_relative '../intro_to_ruby_hashes_lab.rb'
-
+new_hash = {
+  
+}
 describe "working with hashes" do
 
   describe "instantiating" do
@@ -10,7 +12,22 @@ describe "working with hashes" do
       end
     end
 
-
+my_hash = {
+  sayef: "tasin"
+}
+def pioneer
+  hash = {
+    name: "Grace Hopper"
+  }
+end
+def id_generator
+  apple = {
+    id: "2"
+  }
+end
+def my_hash_creator
+  {:asif =>
+end
     describe "my_hash" do
       it "creates and returns a valid hash that contains key/value pairs of your choice" do
         expect(my_hash).to be_a(Hash)
@@ -75,3 +92,4 @@ describe "updating data in a hash" do
   end
 
 end
+ 
