@@ -25,7 +25,7 @@ def id_generator
     id: "2"
   }
 end
-def update_counting_hash
+def my_hash_creator
   orange = {
     asif: "2",
     madeline: "1"
