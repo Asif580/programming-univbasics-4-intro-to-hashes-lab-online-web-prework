@@ -22,7 +22,7 @@ def pioneer
 end
 def id_generator
   apple = {
-    :id: "2"
+    id: "2"
   }
 end
 def update_counting_hash
