@@ -26,7 +26,7 @@ def id_generator
   }
 end
 def my_hash_creator
-  {:asif =>
+  {:asif => "madeline"}
 end
     describe "my_hash" do
       it "creates and returns a valid hash that contains key/value pairs of your choice" do
