@@ -26,12 +26,6 @@ def id_generator
   }
 end
 
-def my_hash_creator
-  orange = {
-    asif: "2",
-    madeline: "1"
-  }
-end
 
     describe "my_hash" do
       it "creates and returns a valid hash that contains key/value pairs of your choice" do
@@ -54,7 +48,12 @@ end
         expect(id_generator[:id]).to be > 0
       end
     end
-
+def my_hash_creator
+  orange = {
+    asif: "2",
+    madeline: "1"
+  }
+end
     describe "my_hash_creator" do
       it "accepts a key and a value as parameters and returns a hash with this key/value pair inside" do
         expect(my_hash_creator(:name, 'Grace Hopper')).to be_a(Hash)
