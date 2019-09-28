@@ -48,12 +48,7 @@ end
         expect(id_generator[:id]).to be > 0
       end
     end
-def my_hash_creator
-  orange = {
-    asif: "2",
-    madeline: "1"
-  }
-end
+
     describe "my_hash_creator" do
       it "accepts a key and a value as parameters and returns a hash with this key/value pair inside" do
         expect(my_hash_creator(:name, 'Grace Hopper')).to be_a(Hash)
@@ -64,7 +59,12 @@ end
     end
   end
 end
-
+def my_hash_creator
+  orange = {
+    asif: "2",
+    madeline: "1"
+  }
+end
 describe "reading data from a hash" do
   describe "read_from_hash" do
     it "returns the value corresponding to the provided key" do
