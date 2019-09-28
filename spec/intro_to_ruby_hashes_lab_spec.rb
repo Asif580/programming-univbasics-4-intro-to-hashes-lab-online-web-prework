@@ -25,9 +25,11 @@ def id_generator
     id: "2"
   }
 end
-def my_hash_creator
-  { "asif" => "madeline"
-}
+def update_counting_hash
+  orange = {
+    asif: "2",
+    madeline: "1"
+  }
 end
     describe "my_hash" do
       it "creates and returns a valid hash that contains key/value pairs of your choice" do
